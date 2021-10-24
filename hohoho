@@ -1,0 +1,14 @@
+ static void Main(string[] args)  
+     {
+       long N = long.Parse(Console.ReadLine());
+ string Ho = "Ho ";
+       string exclamacao = "Ho!";
+       for (int i = 1; i < N; i++) 
+  {         
+  Console.Write("{0}",Ho);                 
+  }
+  Console.Write(exclamacao.TrimEnd());
+  Console.WriteLine();
+  }      
+ }
+}
